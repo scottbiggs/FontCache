@@ -42,4 +42,7 @@ public class FontCache {
 		return tf;
 	}
 
+    /** Should never be called--just a pure static class */
+    private FontCache() {};
+
 }
